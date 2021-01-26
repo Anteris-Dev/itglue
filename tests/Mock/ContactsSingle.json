@@ -1,0 +1,74 @@
+{
+    "data": {
+        "id": "72",
+        "type": "contacts",
+        "attributes": {
+            "organization-id": 2,
+            "organization-name": "Happy Frog",
+            "name": "Robert Storts",
+            "first-name": "Robert",
+            "last-name": "Storts",
+            "title": "Director of IT",
+            "contact-type-id": 24,
+            "contact-type-name": "Approver",
+            "location-id": null,
+            "location-name": null,
+            "important": null,
+            "notes": null,
+            "created-at": "2016-09-12T19:10:26.000Z",
+            "updated-at": "2016-09-12T19:10:26.000Z",
+            "contact-emails": [
+                {
+                    "value": "robert@happyfrog.com",
+                    "primary": true,
+                    "label-name": "Work"
+                }
+            ],
+            "contact-phones": [
+                {
+                    "value": "4155552156",
+                    "extension": null,
+                    "primary": true,
+                    "label-name": "Work",
+                    "label-type": "phone",
+                    "formatted-value": "(415) 555-2156"
+                },
+                {
+                    "value": "8134890123",
+                    "extension": null,
+                    "primary": false,
+                    "label-name": "Cell",
+                    "label-type": "phone",
+                    "formatted-value": "(813) 489-0123"
+                }
+            ]
+        },
+        "relationships": {
+            "attachments": {
+                "data": [
+                    {
+                        "id": "1",
+                        "type": "attachments"
+                    }
+                ]
+            }
+        },
+        "included": [
+            {
+                "id": "1",
+                "type": "attachments",
+                "attributes": {
+                    "name": "xxx.txt",
+                    "attachment-file-name": "xxx.txt",
+                    "attachment-content-type": "text/x-ruby-script",
+                    "attachment-file-size": 314368,
+                    "ext": "txt",
+                    "viewable": true,
+                    "download-url": "/download/url",
+                    "created-at": "2018-03-01T23:14:18.000Z",
+                    "updated-at": "2018-03-01T23:14:18.000Z"
+                }
+            }
+        ]
+    }
+}

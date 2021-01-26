@@ -1,0 +1,91 @@
+{
+    "data": [
+        {
+            "id": "72",
+            "type": "contacts",
+            "attributes": {
+                "organization-id": 2,
+                "organization-name": "Happy Frog",
+                "name": "Robert Storts",
+                "first-name": "Robert",
+                "last-name": "Storts",
+                "title": "Director of IT",
+                "contact-type-id": 24,
+                "contact-type-name": "Approver",
+                "location-id": null,
+                "location-name": null,
+                "important": null,
+                "notes": null,
+                "created-at": "2016-09-12T19:10:26.000Z",
+                "updated-at": "2016-09-12T19:10:26.000Z",
+                "contact-emails": [
+                    {
+                        "value": "robert@happyfrog.com",
+                        "primary": true,
+                        "label-name": "Work"
+                    }
+                ],
+                "contact-phones": [
+                    {
+                        "value": "4155552156",
+                        "extension": null,
+                        "primary": true,
+                        "label-name": "Work",
+                        "label-type": "phone",
+                        "formatted-value": "(415) 555-2156"
+                    },
+                    {
+                        "value": "8134890123",
+                        "extension": null,
+                        "primary": false,
+                        "label-name": "Cell",
+                        "label-type": "phone",
+                        "formatted-value": "(813) 489-0123"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "73",
+            "type": "contacts",
+            "attributes": {
+                "organization-id": 2,
+                "organization-name": "Happy Frog",
+                "name": "John Morgan",
+                "first-name": "John",
+                "last-name": "Morgan",
+                "title": "VP Operations",
+                "contact-type-id": 24,
+                "contact-type-name": "Approver",
+                "location-id": null,
+                "location-name": null,
+                "important": true,
+                "notes": null,
+                "created-at": "2016-09-12T19:10:26.000Z",
+                "updated-at": "2016-09-12T19:10:26.000Z",
+                "contact-emails": [
+                    {
+                        "value": "john.morgan@happyfrog.com",
+                        "primary": true,
+                        "label-name": "Work"
+                    },
+                    {
+                        "value": "john@home.com",
+                        "primary": false,
+                        "label-name": "Home"
+                    }
+                ],
+                "contact-phones": [
+                    {
+                        "value": "4155557673",
+                        "extension": null,
+                        "primary": true,
+                        "label-name": "Work",
+                        "label-type": "phone",
+                        "formatted-value": "(415) 555-7673"
+                    }
+                ]
+            }
+        }
+    ]
+}
