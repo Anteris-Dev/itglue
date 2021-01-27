@@ -198,8 +198,16 @@ class Parser
                     continue;
                 }
 
+                if (in_array($relationshipData['type'], ['related-items', 'related-item'])) {
+                    $relationshipData['type'] = 'tags';
+                }
+
                 $related[] = new RelationshipData($relationshipData);
             }
+        }
+
+        if (in_array($entity['type'], ['related-items', 'related-item'])) {
+            $entity['type'] = 'tags';
         }
 
         return new EntityData([
